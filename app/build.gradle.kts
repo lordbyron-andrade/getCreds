@@ -76,6 +76,9 @@ dependencies {
     implementation("androidx.camera:camera-mlkit-vision:${camerax_version}")
     implementation("androidx.camera:camera-extensions:${camerax_version}")
 
+    implementation ("org.tensorflow:tensorflow-lite-task-vision-play-services:0.4.2")
+    implementation ("com.google.android.gms:play-services-tflite-gpu:16.1.0")
+
 
 
 }
